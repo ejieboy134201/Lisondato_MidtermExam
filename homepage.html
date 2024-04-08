@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+  <nav class="side-nav">
+    <div class="nav-header">
+      <h3>Navigation</h3>
+    </div>
+    <ul>
+      <li class="active" data-tab="dashboard">Dashboard</li>
+      <li data-tab="accounts">Accounts</li>
+      <li data-tab="licenses">Licenses</li>
+    </ul>
+    <div id="logoutBtn">Logout</div> <!-- Logout button at the bottom -->
+  </nav>
+  <main class="content">
+    <div id="dashboard" class="tab-content active">
+      <h1>Dashboard</h1>
+      <p>Welcome to the Dashboard!</p>
+    </div>
+    <div id="accounts" class="tab-content">
+      <h1>Accounts</h1>
+      <p>Manage your accounts here.</p>
+    </div>
+    <div id="licenses" class="tab-content">
+      <h1>Licenses</h1>
+      <p>View your licenses and subscriptions.</p>
+    </div>
+  </main>
+  <div id="confirmationDialog" class="dialog">
+    <div class="dialog-content">
+      <p>Are you sure you want to logout?</p>
+      <button id="confirmLogoutBtn">Yes</button>
+      <button id="cancelLogoutBtn">No</button>
+    </div>
+  </div>
+  <script src="homepage_script.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh; /* Set body height to full viewport height */
+  }
+  
+  .side-nav {
+    width: 250px;
+    background-color: rgba(57, 57, 57, 0.919); /* Slightly transparent white background */
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  
+  .nav-header h3 {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: auto;
+  }
+  
+  ul li {
+    cursor: pointer;
+    padding: 10px 0;
+    border-bottom: 1px solid #555;
+  }
+  
+  ul li.active {
+    font-weight: bold;
+  }
+  
+  .content {
+    background: linear-gradient(to bottom, #f1fff2,#e8ffea,#d9fedc,#c8f9cb,#84ff8c );
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto; /* Add overflow-y for content scrolling */
+  }
+  
+  .tab-content {
+    display: none;
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
+  
+  #logoutBtn {
+    padding: 4% 10%;
+    background-color: #00a00b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center; /* Center-align text */
+  }
+
+  /* Existing styles */
+
+.dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dialog-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .dialog-content p {
+    margin-bottom: 20px;
+  }
+  
+  .dialog-content button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #00a00b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Existing styles */
+  
+  
+  
