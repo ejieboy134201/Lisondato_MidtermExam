@@ -4,15 +4,18 @@ INTRODUCTION
 
 This project is a simple web application featuring a login page that redirects users to the Dashboard upon successful login. The system is designed to provide a basic login functionality for users.
 
+
 FUNCTIONALITY
 
 -Login Page: Users can enter their credentials (username or email and password) to log in to the system.
 -Redirect to Dashboard: Upon successful login, users are redirected to the Dashboard page.
 
+
 INSTALLATION AND SETUP
 1. Clone the repository to your local machine:
 -git clone [https://github.com/your/repository.git](https://github.com/ejieboy134201/Lisondato_MidtermExam.git)
 2. Open the project directory in your code editor.
+
 
 USAGE
 1. Install the Live Server extension in Visual Studio Code.
@@ -28,8 +31,11 @@ USAGE
 8. Click the "Login" button to log in.
 9. Upon successful login, you will be automatically redirected to the Dashboard page.
 
+
 KNOWN ISSUES
+
 -No known issues at the moment.
+
 
 HOW TO CONTRIBUTE
 1. Fork the repository.
@@ -38,8 +44,11 @@ HOW TO CONTRIBUTE
 4. Push to the branch (git push origin feature/your-feature-name).
 5. Create a new Pull Request.
 
+
 COPYRIGHT AND LICENSING
+
 This project is licensed under the MIT License.
 
 CONTACT
+
 For any inquiries or feedback, please contact [clisondato_200000000623@uic.edu.ph or +639484538756].
