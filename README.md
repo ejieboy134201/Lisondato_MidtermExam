@@ -5,16 +5,20 @@ INTRODUCTION
 This project is a simple web application featuring a login page that redirects users to the Dashboard upon successful login. The system is designed to provide a basic login functionality for users.
 
 
+
 FUNCTIONALITY
 
 -Login Page: Users can enter their credentials (username or email and password) to log in to the system.
+
 -Redirect to Dashboard: Upon successful login, users are redirected to the Dashboard page.
+
 
 
 INSTALLATION AND SETUP
 1. Clone the repository to your local machine:
 -git clone [https://github.com/your/repository.git](https://github.com/ejieboy134201/Lisondato_MidtermExam.git)
 2. Open the project directory in your code editor.
+
 
 
 USAGE
@@ -32,9 +36,11 @@ USAGE
 9. Upon successful login, you will be automatically redirected to the Dashboard page.
 
 
+
 KNOWN ISSUES
 
 -No known issues at the moment.
+
 
 
 HOW TO CONTRIBUTE
@@ -45,9 +51,12 @@ HOW TO CONTRIBUTE
 5. Create a new Pull Request.
 
 
+
 COPYRIGHT AND LICENSING
 
 This project is licensed under the MIT License.
+
+
 
 CONTACT
 
